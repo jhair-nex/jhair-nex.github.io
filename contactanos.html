@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactanos</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url(https://image.shutterstock.com/image-photo/turquoise-wool-thread-crochet-texture-250nw-2538479177.jpg);
+            color: red;
+        }
+        label{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            text-shadow: 0cqmax;
+        }
+        input{
+            height: 3vh;
+            transition: (1.2);
+        }
+        a{
+            text-decoration: none;
+            font-size: 50px;
+            font-family: fantasy;  
+            color: cornsilk;
+            padding: 10px 20px;
+            background-color: black;
+            border-radius: 20px;
+        }
+        a:hover{
+            background-color: aqua;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>CONTACTO</h1>
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" maxlength="50"><br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" maxlength="100"><br><br>
+        <label for="sexo">Sexo</label><br>
+        <input type="radio" name="m" id="m" value="masculino" required>masculino
+        <input type="radio" name="f" id="f" value="femenino" required>Femenino<br><br>
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="fecha" id="fecha" required><br><br>
+        <label for="dni">DNI</label>
+        <input type="text" name="apellido" id="apellido" maxlength="8">
+        <label for="text">Correo</label>
+        <input type="text" name="text" id="text" maxlength="109"><br><br>
+        <label for="lugar">Lugar de contacto</label>
+        <select name="lugar" id="lugar">
+            <option value="aqp">Arequipa</option>
+            <option value="cma">Camana</option>
+            <option value="cvl">Caraveli</option>
+            <option value="">caylloma</option>
+            <option value="cds">Condesuyos</option>
+            <option value="isl">Islay</option>
+            <option value="la u">La Union</option>
+        </select><br><br>
+        <input type="checkbox" name="ok" id="ok" required>
+        <label for="ok">acepto terminos y condiciones impuestas.</label><br>
+        <input type="checkbox" name="deseo" id="deseo">
+        <label for="deseo">Deseo resivir notificaciones y novedades directamente a mi correo</label><br><br>
+        <input type="submit" value="enviar">
+    </form><br>
+    <a href="pagina principal.html">RETORNO</a>
+</body>
+</html>
